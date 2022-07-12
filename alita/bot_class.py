@@ -39,7 +39,7 @@ class Alita(Client):
         name = self.__class__.__name__.lower()
 
         super().__init__(
-            "Alita_Robot",
+            "Akeno_Robot",
             bot_token=BOT_TOKEN,
             plugins=dict(root=f"{name}.plugins", exclude=NO_LOAD),
             api_id=APP_ID,
